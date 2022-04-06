@@ -1,7 +1,7 @@
 Frontend APP to display Vesting Schedule
 ===================================
 
-This is a commandline application.
+This is a command line application.
 
 Once running, it should looke like below.
 
@@ -10,30 +10,32 @@ Once running, it should looke like below.
 Run with Virtual Environment
 ----------------------------
 
-Create virtual environment:
+Below steps are for windows operating system.
+
+1 Create virtual environment:
 
 .. code-block:: bash
 
    virtualenv venv
    .\venv\Scripts\activate.bat
 
-Install requirements:
+2 Install requirements:
 
 .. code-block:: bash
 
     pip install -r requirements.txt
 
-To run the application do:
+3 To run the application do:
 
 .. code-block:: bash
 
    python app\vesting_program.py example1.csv 2020-04-01
 
-The output should be something like:
 
-.. code-block::
+Application Diagram
+-------------------
 
-E001,Alice Smith,ISO-001,1000
-E001,Alice Smith,ISO-002,800
-E002,Bobby Jones,NSO-001,600
-E003,Cat Helms,NSO-002,0
+
+.. image:: app_diagram.png
+
+
