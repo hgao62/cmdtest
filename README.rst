@@ -39,3 +39,10 @@ Application Diagram
 .. image:: app_diagram.png
 
 
+Future improvment
+-----------------
+- add unit  testing
+- move logging output to central location(it outputs to current folder as of now)
+- move to docker
+
+
