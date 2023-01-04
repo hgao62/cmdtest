@@ -1,4 +1,4 @@
-Frontend APP to display Vesting Schedule
+Backend APP to display Vesting Schedule
 ===================================
 
 This is a command line application.
